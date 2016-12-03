@@ -21,11 +21,14 @@ $arrLunarDate = solarToLunarDate($_POST["birthYear"],$_POST["birthMonth"],$_POST
 ```
 require_once 'functions/function_calendar.php';
 $arrLunarDate = solarToLunarDate(1980,12,25);
-echo $arrLunarDate[0];
-echo $arrLunarDate[1];
+echo $arrLunarDate[0]."<br>";
+echo $arrLunarDate[1]."<br>";
 echo $arrLunarDate[2];
 ```
-output is 69/11/19
+output is below:
+69
+11
+19
 
 
 
